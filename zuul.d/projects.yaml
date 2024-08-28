@@ -2,7 +2,7 @@
 - project:
     github-check:
       jobs:
-        - cifmw-client-build-push-container-ci-framework
+        - build-push-container-cifmw-client-post
     github-gate:
       jobs:
         - noop
@@ -12,5 +12,4 @@
     github-post:
       debug: true
       jobs:
-        #- cifmw-client-build-push-container-ci-framework-post
         - noop
