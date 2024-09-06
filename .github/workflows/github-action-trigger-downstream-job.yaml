@@ -1,3 +1,0 @@
-jobs:
-  trigger_workflow:
-    uses: raukadah/ci-playground/.github/workflows/github-action-trigger-downstream-job.yaml@main
