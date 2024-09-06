@@ -8,6 +8,7 @@
         - noop
     github-experimental-trigger:
       jobs:
+      # - noop
         - create-baremetal-trigger-for-downstream-dummy
     github-post:
       debug: true
